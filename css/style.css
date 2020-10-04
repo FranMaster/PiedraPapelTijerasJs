@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.contenedor{
+    background-color: rgba(150, 122, 88, 0.808);
+    width: 30vw;
+    height: 30vh;
+    margin: 2%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    padding: 5%;
+}
+
+
+img,select,button{
+    display: block;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+select,button,img{
+    width: 50%;
+    margin: auto;
+}
+h2{
+    text-align: center;
+}
+option{
+    text-align: center;
+}
